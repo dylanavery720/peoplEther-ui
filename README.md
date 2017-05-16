@@ -1,0 +1,1 @@
+Playing around with Ethereum and React. Building a UI for our test contracts which are deployed to `testrpc`.
