@@ -29,8 +29,8 @@ class App extends Component {
     _.each(this.state.firstNames, (value, index) => {
       TableRows.push(
       <tr>
-        <td>{this.state.firstNames[index]}</td>
-        <td>{this.state.lastNames[index]}</td>
+        <td>{ETHEREUM_CLIENT.toAscii(this.state.firstNames[index])}</td>
+        <td>{ETHEREUM_CLIENT.toAscii(this.state.lastNames[index])}</td>
         <td>{this.state.ages[index]}</td>
       </tr>
       )
